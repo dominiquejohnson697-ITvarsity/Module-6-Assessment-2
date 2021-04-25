@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+/*================================ MENU =================================*/
+
+#menu {
+    background-color: #000222;
+    height: 100px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    display: inline-block;
+}
+li.home {
+    float: left;
+    padding-left: 100px;
+}
+li.contact {
+    float: right;
+    padding-right: 100px;
+}
+li img.logo {
+    width: 90px;
+    height: 70px;
+    padding-top: 15px;
+    display: block;
+    border-radius: 30px 30px 30px 30px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in; 
+}
+li img.logo:hover {
+    -moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+}
+#menu a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 100px;
+    color: #ffffff;
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+#menu a:hover {
+    background-color: #003afa;
+    border: 1px solid #ffffff;
+    border-radius: 20px 20px 20px 20px;
+}
+#top {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(2, 131, 236);
+}
+#top h1{
+    letter-spacing: 0.5em;
+    text-align: center;
+    color: #CCFFFF;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    padding-top: 40px; 
+    text-transform: uppercase;
+}
+
+/*============================= BANNER ==============================*/
+
+#banner img{
+    display: inline-block;
+    width: 30%;
+    height: 130px;
+    padding-left: 20px;
+}
+
+/*============================= CONTENT =============================*/
+
+#content{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+#info {
+    border: 1px solid rgba(99, 187, 238, 0.89);
+}
+#info h3 {
+    font-weight: 600;
+    padding-left: 50px;
+}
+#info-box{
+    text-decoration: none;
+    background: rgba(99, 187, 238, 0.89);
+    width: 90%;
+    height: 170px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+    color: black;
+}
+#info-box img{
+    height: 150px;
+    margin: 10px;
+    float: left;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in; 
+}
+#info-box img:hover {
+    -moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+}
+#info-box h3{
+    padding: 0;
+    margin-bottom:0;
+    width: 90%;
+    color: #2e0a0d;
+    text-transform: uppercase;
+}
+#info-box b{
+    color: red;
+    font-size: 10px;
+}
+#info-box ul{
+    float: left;
+    font-size: 11px;
+    list-style-type: none;
+} 
+#info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: 131313;
+}
+#info-box button {
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+#info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px; 
+}
+
+/*============================= CONTACT =============================*/
+
+#page {
+    min-height: 400px;
+    padding: 20px;
+}
+#page h2 {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7416a0;
+}
+
+/* CONTENT */
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+/*================================== FOOTER =================================*/
+
+#footer {
+    width: 100%;
+    height: 140px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#footer p{
+    color: #adadad;
+}
+#footer a{
+    color: #adadad;
+}
+#box1 {
+    display:inline-block;
+    padding-left: 30px;
+}
+
+/*================================== COPYRIGHT =================================*/
+
+#copyright {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #000222;
+    padding-top: 55px;
+    clear: both;
+}
+#copyright p {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
